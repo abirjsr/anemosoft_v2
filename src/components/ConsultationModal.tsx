@@ -125,9 +125,9 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
                   </label>
                   <Input
                     type="tel"
-                    placeholder="+880 1785 513 286"
+                    placeholder="+8801785513286"
                     value={formData.phone}
-                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                    onChange={(e) => setFormData({ ...formData, phone: e.target.value.replace(/\s+/g, '') })}
                   />
                 </div>
               </div>

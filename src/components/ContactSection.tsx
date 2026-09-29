@@ -255,8 +255,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                       <Input
                         type="tel"
                         value={formData.phone}
-                        onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                        placeholder="e.g. +880 1785 513 286"
+                        onChange={(e) => setFormData({ ...formData, phone: e.target.value.replace(/\s+/g, '') })}
+                        placeholder="e.g. +8801785513286"
                       />
                     </div>
 

@@ -30,7 +30,7 @@ export const COMPANY_DETAILS = {
   subTagline: "Custom Software Engineering, Autonomous AI Agents & High-Scale Systems",
   description: "Anemosoft is a high-velocity software engineering agency specializing in custom software development, modern web applications, autonomous AI agents, and resilient mobile solutions that scale businesses efficiently.",
   phone: "+8801785513286",
-  phoneDisplay: "+880 1785 513 286",
+  phoneDisplay: "+8801785513286",
   whatsappUrl: "https://wa.me/8801785513286?text=Hello%20Anemosoft%2C%20I%20would%20like%20to%20discuss%20a%20software%20project.",
   email: "contact@anemosoft.com",
   websiteUrl: "https://www.anemosoft.com",
